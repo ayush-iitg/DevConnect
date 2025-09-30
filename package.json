@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "express": "^5.1.0" // yaha jo ^ hai wo batata hai ki express ka version auto update ho jaayega,
+    "express": "^5.1.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   }
 }
